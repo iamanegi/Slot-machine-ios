@@ -13,6 +13,8 @@
 		1E2E8A7928C5D66300AD7F49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2E8A6728C5D65F00AD7F49 /* ContentView.swift */; };
 		1E2E8A7A28C5D66300AD7F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2E8A6828C5D66300AD7F49 /* Assets.xcassets */; };
 		1E2E8A7B28C5D66300AD7F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2E8A6828C5D66300AD7F49 /* Assets.xcassets */; };
+		1E2E8A8828C5D70400AD7F49 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2E8A8728C5D70400AD7F49 /* CustomView.swift */; };
+		1E2E8A8928C5D70400AD7F49 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2E8A8728C5D70400AD7F49 /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		1E2E8A6D28C5D66300AD7F49 /* slot-machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "slot-machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E2E8A7328C5D66300AD7F49 /* slot-machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "slot-machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E2E8A7528C5D66300AD7F49 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		1E2E8A8728C5D70400AD7F49 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 				1E2E8A6628C5D65F00AD7F49 /* slot_machineApp.swift */,
 				1E2E8A6728C5D65F00AD7F49 /* ContentView.swift */,
 				1E2E8A6828C5D66300AD7F49 /* Assets.xcassets */,
+				1E2E8A8728C5D70400AD7F49 /* CustomView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -177,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E2E8A7828C5D66300AD7F49 /* ContentView.swift in Sources */,
+				1E2E8A8828C5D70400AD7F49 /* CustomView.swift in Sources */,
 				1E2E8A7628C5D66300AD7F49 /* slot_machineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E2E8A7928C5D66300AD7F49 /* ContentView.swift in Sources */,
+				1E2E8A8928C5D70400AD7F49 /* CustomView.swift in Sources */,
 				1E2E8A7728C5D66300AD7F49 /* slot_machineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
